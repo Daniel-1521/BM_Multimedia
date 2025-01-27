@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BM Multimedia Group - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+          background-image: url("background/Wedding photos.jpeg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+        }
+        main {
+          flex: 1;
+          margin: 20px;
+          padding: 20px;
+        }
+        .contact {
+          padding: 20px;
+        }
+        header {
+    background-color: #cedae6;
+    padding: 20px;
+    text-align: center;
+        }
+        footer {
+          margin-top: auto;
+          margin: 10px;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>BM Multimedia Group</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="ourwork.html">Our Works</a></li>
+                <li><a href="contract.html">Contract</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="https://formsubmit.co/el/tasuxi" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Multimedia Group</p>
+    </footer>
+</body>
+</html>
